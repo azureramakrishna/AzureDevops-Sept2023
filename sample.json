@@ -1,0 +1,51 @@
+{
+    "InstituteName": "SAANVIK IT",
+    "TutorName": "Ramakrishna",
+    "Course": "AzureDevops with IAC",
+    "Duration": "40 Days",
+    "ContactNumber": 9513184144,
+    "Address": {
+        "city": "Hyderabad",
+        "State": "TS",
+        "Country": "India"
+    },
+
+    "Participants": [
+        {
+            "Name": "Sai",
+            "Location": "Hyderabad",
+            "MobileNumber": 123456789,
+            "IsAzureAdmin": true 
+        },
+        {
+            "Name": "Manush",
+            "Location": "Hyderabad",
+            "IsAzureAdmin": true 
+        },
+        {
+            "Name": "Roshan",
+            "Location": "Poland",
+            "IsAzureAdmin": true 
+        },
+        {
+            "Name": "Sravani",
+            "Location": "Irland",
+            "IsAzureAdmin": true 
+        },
+        {
+            "Name": "Srikanth",
+            "Location": "Hyderabad",
+            "IsAzureAdmin": false 
+        },
+        {
+            "Name": "Sudha",
+            "Location": "Bangalore",
+            "IsAzureAdmin": true 
+        },
+        {
+            "Name": "Vinod",
+            "Location": "UK",
+            "IsAzureAdmin": true 
+        }
+    ]
+}
