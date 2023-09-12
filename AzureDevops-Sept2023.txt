@@ -1,0 +1,35 @@
+
+1 VM -> portal 
+1000 VM -> Infrastructure as a code (IAC) 
+
+VM 
+
+Project - SAANIK  - Dev (Roshan) - code
+
+2 VM 
+2 WebApps
+1 VNET/SNET 
+10 SA 
+5 SQL DB 
+1 APP Insights 
+1 Keyvault 
+
+
+Nonprod    Manusha
+Prod
+
+ARM Templates:
+-------------
+Structure / Elements / Components of ARM Templates
+
+Schema
+ContentVersion
+Parameters
+Variables 
+Resources 
+Outputs
+
+Getting started with ARMTemplates:
+---------------------------------
+1. Install Vscode -> https://code.visualstudio.com/download
+2. Extensions ->  you need Visual Studio Code, with the Azure Resource Manager tools extension installed
