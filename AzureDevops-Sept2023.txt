@@ -33,3 +33,31 @@ Getting started with ARMTemplates:
 ---------------------------------
 1. Install Vscode -> https://code.visualstudio.com/download
 2. Extensions ->  you need Visual Studio Code, with the Azure Resource Manager tools extension installed
+
+
+Portal
+Powershell
+AzureCLI
+
+IAC: 
+
+ARMTemplates
+Terraform
+Bicep
+
+
+Deploy the template:
+-------------------
+
+Powershell:
+----------
+New-AzResourceGroup -Name arm-vscode -Location eastus
+
+New-AzResourceGroupDeployment -ResourceGroupName arm-vscode -TemplateFile ./azuredeploy.json -TemplateParameterFile ./azuredeploy.parameters.json
+
+
+AzureCLI:
+--------
+az group create --name arm-vscode --location eastus
+
+az deployment group create --resource-group arm-vscode --template-file azuredeploy.json --parameters azuredeploy.parameters.json
