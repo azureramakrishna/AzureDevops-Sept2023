@@ -1,0 +1,32 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storage_account_name": {
+            "value": "saanvikitsept2023"
+        },
+        "tags": {
+            "value": {
+                "project": "saanvikit",
+                "department": "Information technology",
+                "environment": "dev",
+                "createdby": "Ramakrishna"
+            }
+        },
+        "virtual_network_name": {
+            "value": "sample-vnet"
+        },
+        "virtual_machine_name": {
+            "value": "sample-vm"
+        },
+        "adminUser": {
+            "value": "azureuser"
+        },
+        "adminPassword": {
+            "value": "Azuredevops@12345"
+        },
+        "count_value": {
+            "value": 5
+        }
+    }
+}
