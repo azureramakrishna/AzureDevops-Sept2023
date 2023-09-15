@@ -61,3 +61,47 @@ AzureCLI:
 az group create --name arm-vscode --location eastus
 
 az deployment group create --resource-group arm-vscode --template-file azuredeploy.json --parameters azuredeploy.parameters.json
+
+
+Functions:
+---------
+resouregroup().location
+concat (arg1, arg2, arg3 )
+dependson
+copyindex() - Multiple resources 
+toLower
+ResourceId
+
+
+
+VNET 
+SNET
+SA
+NSG
+Publicip
+NIC
+OSDisk
+VM
+
+test-vm-osdis-1
+
+ARMTemplates Deployment modes:
+-----------------------------
+1. Complete mode
+2. Incremental mode 
+
+ARMTemplates Interview Questions:
+--------------------------------
+1. what is IAC ?
+2. Why do we use it
+3. What are the benifits of using IAC 
+4. What are ARMTemplates ?
+5. In which format they are written 
+6. Explain structure/components/sceliten of ARMTemplate
+7. what is the difference between parameters and Variables 
+8. How do you deploy the ARMteampltes 
+9. what is the powershell command to do the ARMTemplate deployment 
+10. What is the azure cli command to do the ARMTemplate deployment 
+11. what are the functions used while writting the template 
+12. what is the difference between incremental mode vs complete mode 
+13. what is the function that you use to do the multi resources deployment 
