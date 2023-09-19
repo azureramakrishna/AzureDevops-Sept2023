@@ -105,3 +105,52 @@ ARMTemplates Interview Questions:
 11. what are the functions used while writting the template 
 12. what is the difference between incremental mode vs complete mode 
 13. what is the function that you use to do the multi resources deployment 
+
+Azure - ARMTemplate & Bicep
+AWS - CloudFormation
+Terraform  
+
+Terraform: Infrastructure as a code 
+---------
+
+ARMteampltes											Terraform 
+------------											---------
+1. IAC Tool												1. IAC Tool 
+2. Specific to Azure 									2. Opensource (Azure, AWS, GCP, Alibaba, OCI, etc)
+3. Format - JSON										3. Format - HCL (Hashicorp configuration language)
+4. File extension - .json 								4. File extension - .tf 
+5. template.json 										5. main.tf
+   parameters.json 											variables.tf
+6. Schema 												6. Terraform Building blocks 
+   ContentVersion											Provider
+   Variables												Resources
+   Parameters												Outputs
+   Functions
+   Resources 
+   Outputs 
+7. Deploy using Powershell/CLI 							7. Terraform Lifecycle 
+   New-AzResourceGroupDeployment `							Terraform Init
+   -ResourceGroupName 'test' `								Terraform fmt
+   -TemplateFile .\template.json `							Terraform validate
+   -TemplateParameterFile .\parameters.json `				Terraform plan	
+   -Verbose													Terraform apply 
+															Terraform destroy 
+
+Getting started with Terraform:
+------------------------------
+1. Install terraform --> https://developer.hashicorp.com/terraform/downloads
+2. Validate -> Open CMD --> enter terraform 
+3. VSCode extensions -> HashiCorp Terraform & Azure Terraform
+4. Terraform Providers: https://registry.terraform.io/browse/providers
+	Azure - Azurerm
+	AWS - aws
+	GCP - google
+5. Terraform varibles types: https://developer.hashicorp.com/terraform/language/expressions/types
+6. Terraform Lower function: https://developer.hashicorp.com/terraform/language/functions/lower
+
+   Terraform init - It will install the provider plugins 
+   Terraform fmt - Format the template 
+   Terraform validate - Validate the template 
+   Terraform plan - Plan for the deployment 
+   Terraform apply - Starts the provisioining the resources 
+   Terraform destroy - delete the resources 
