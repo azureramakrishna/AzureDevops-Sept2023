@@ -154,3 +154,8 @@ Getting started with Terraform:
    Terraform plan - Plan for the deployment 
    Terraform apply - Starts the provisioining the resources 
    Terraform destroy - delete the resources 
+
+
+**** terraform.tfstate - it store the state of the deployment in JSON format
+     Keep it in the remote location - Azure Storage Account 
+	 Azure Terraform backend: https://developer.hashicorp.com/terraform/language/settings/backends/azurerm
