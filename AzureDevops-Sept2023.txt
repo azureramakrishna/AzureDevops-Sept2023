@@ -159,3 +159,17 @@ Getting started with Terraform:
 **** terraform.tfstate - it store the state of the deployment in JSON format
      Keep it in the remote location - Azure Storage Account 
 	 Azure Terraform backend: https://developer.hashicorp.com/terraform/language/settings/backends/azurerm
+	 
+
+Terraform Datasources:
+---------------------
+data source to access information about an existing resources
+
+Authenticating using service principal:
+
+  client_id       = "14651c27-1aad-4251-b759-b208f67cac4a"
+  client_secret   = "qjo8Q~uFvyJQ7ncn2Dx.L_jv4yF0J-Dhy_gAddBg"
+  tenant_id       = "459865f1-a8aa-450a-baec-8b47a9e5c904"
+  subscription_id = "6e4924ab-b00c-468f-ae01-e5d33e8786f8"
+  
+variables.auto.tfvars
