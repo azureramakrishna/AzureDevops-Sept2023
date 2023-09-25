@@ -172,4 +172,13 @@ Authenticating using service principal:
   tenant_id       = "459865f1-a8aa-450a-baec-8b47a9e5c904"
   subscription_id = "6e4924ab-b00c-468f-ae01-e5d33e8786f8"
   
-variables.auto.tfvars
+variables.tf     vs      variables.auto.tfvars
+
+
+terraform validate   vs   terraform plan
+
+
+count.index  --> to deploy multiple resources using single template
+
+Terraform Modules:
+-----------------
