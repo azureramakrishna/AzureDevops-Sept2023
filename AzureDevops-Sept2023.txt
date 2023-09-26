@@ -182,3 +182,32 @@ count.index  --> to deploy multiple resources using single template
 
 Terraform Modules:
 -----------------
+Reusing the existing terraform configuration code
+
+- Local Modules 
+- Remote Modules 
+
+
+Terraform Interview questions:
+-----------------------------
+1. What is terraform 
+2. why do we use terraform instead of ARMtemplates 
+3. what are the building blocks of terraform 
+4. what is the terraform workflow and explain each command 
+5. what are the commands that you use to deploy the terraform templates 
+6. what is terraform init
+7. what happens when you execute terraform init 
+8. what terraform validate command does 
+9. what is the difference between terraform validate and terraform plan 
+10. what is the terraform.tfstate file 
+11. where do you store the state file in your project 
+12. if i want to deploy multiple resources with same template what is function we use
+13. what is terraform datasources 
+14. if i want to access/use the existing resources from portal what is the block type i need to use 
+15. what is terraform modules 
+16. what is terraform for_each 
+17. what is terraform provisioners 
+18. what are terraform workspaces 
+19. what are the different type of terraform provisions 
+20. what is the resource type that you will choose to create a windows virtual machine 
+21. How do you differentiate when you have the same resource type in a single terraform template  
