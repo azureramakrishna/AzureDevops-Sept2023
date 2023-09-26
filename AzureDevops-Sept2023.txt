@@ -187,6 +187,11 @@ Reusing the existing terraform configuration code
 - Local Modules 
 - Remote Modules 
 
+Cloud adaption framework:***
+-------------------------
+https://registry.terraform.io/modules/aztfmod/caf/azurerm/latest
+https://github.com/aztfmod/terraform-azurerm-caf/blob/main/examples/standalone.md
+
 
 Terraform Interview questions:
 -----------------------------
